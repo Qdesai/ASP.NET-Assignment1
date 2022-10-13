@@ -34,6 +34,7 @@ namespace MarvelMonitors.Models
                         Features = "Mountable",
                         Price = 469.99M
                     }
+
                     );
                 context.SaveChanges();
             }

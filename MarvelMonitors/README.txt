@@ -45,3 +45,4 @@ As i have to make my assignment for monitors i researched and came to the conclu
 1020 added the SeedData file under the Models Folder.
 1035 added 1 record in the SeedData.cs just to check if it works.
 1039 Updated the contents of program.cs now going to run the application hopefully it should work.
+1042 Happy that it works i will be adding more contents to the SeedData later as i need 10 records for the assigment.
