@@ -34,6 +34,9 @@ namespace MarvelMonitors
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<MarvelMonitorsContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("MarvelMonitorsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
