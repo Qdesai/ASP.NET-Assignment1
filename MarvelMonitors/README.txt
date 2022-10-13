@@ -35,3 +35,8 @@ As i have to make my assignment for monitors i researched and came to the conclu
 2154 changed the connection strings and now the scafolding is started.
 2155 completed scafolding.
 2156 commited to github.
+
+-------------- 13 october 2022 ---------------- 
+
+0249 FINALLLYYY Completed the initaial create.
+0253 DAMNN!!!! Errorrrr  " There is already an object named 'Monitor' in the database "
