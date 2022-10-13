@@ -46,3 +46,12 @@ As i have to make my assignment for monitors i researched and came to the conclu
 1035 added 1 record in the SeedData.cs just to check if it works.
 1039 Updated the contents of program.cs now going to run the application hopefully it should work.
 1042 Happy that it works i will be adding more contents to the SeedData later as i need 10 records for the assigment.
+1116 Added code to the Models/Monitor.cs so that it the Title of the field is not shown as pascal casing (crunched).
+1118 also added the code in the Models/Monitor.cs for the decimal datatype and assigned the range.
+1148 leaving the class 
+
+
+
+-------ASK
+i did nt install the package manager so should i ?? 
+should i comment default string in  the startup.cs
