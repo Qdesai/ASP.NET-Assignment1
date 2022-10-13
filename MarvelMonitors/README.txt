@@ -43,3 +43,5 @@ As i have to make my assignment for monitors i researched and came to the conclu
 1001 When i came to college and tried the Update-Database it worked but i dont know how.
 1015 i realized that i forgot to link controller with the header in the _layout.cshtml page so i added the link now.
 1020 added the SeedData file under the Models Folder.
+1035 added 1 record in the SeedData.cs just to check if it works.
+1039 Updated the contents of program.cs now going to run the application hopefully it should work.
