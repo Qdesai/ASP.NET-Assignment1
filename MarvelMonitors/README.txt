@@ -40,3 +40,4 @@ As i have to make my assignment for monitors i researched and came to the conclu
 
 0249 FINALLLYYY Completed the initaial create.
 0253 DAMNN!!!! Errorrrr  " There is already an object named 'Monitor' in the database "
+1001 When i came to college and tried the Update-Database it worked but i dont know how.
