@@ -49,9 +49,11 @@ As i have to make my assignment for monitors i researched and came to the conclu
 1116 Added code to the Models/Monitor.cs so that it the Title of the field is not shown as pascal casing (crunched).
 1118 also added the code in the Models/Monitor.cs for the decimal datatype and assigned the range.
 1148 leaving the class 
+2312 cloned the repo and started working again.
 
 
+-------------- 14 october 2022 ---------------- 
 
--------ASK
-i did nt install the package manager so should i ?? 
-should i comment default string in  the startup.cs
+0044 After i cloned the repo i was not able to run the command update-database it gave the same error like before because,
+	 I had a database in my laptop that was named same so i deleted the database and tried again.
+0048 updated the database again now it worked.
