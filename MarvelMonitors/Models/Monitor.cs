@@ -26,10 +26,13 @@ namespace MarvelMonitors.Models
         public string RefreshRate { get; set; }
 
         public string Resolution { get; set; }
+
         public string Features { get; set; }
 
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+
+        public decimal Rating { get; set; }
 
     }
 }

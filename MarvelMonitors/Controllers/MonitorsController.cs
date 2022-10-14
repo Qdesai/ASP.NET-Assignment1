@@ -79,7 +79,7 @@ namespace MarvelMonitors.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ModelName,PanelTechnology,Manufacturer,ScreenSize,RefreshRate,Resolution,Features,Price")] Monitor monitor)
+        public async Task<IActionResult> Create([Bind("Id,ModelName,PanelTechnology,Manufacturer,ScreenSize,RefreshRate,Resolution,Features,Price,Rating")] Monitor monitor)
         {
             if (ModelState.IsValid)
             {
@@ -111,7 +111,7 @@ namespace MarvelMonitors.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ModelName,PanelTechnology,Manufacturer,ScreenSize,RefreshRate,Resolution,Features,Price")] Monitor monitor)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,ModelName,PanelTechnology,Manufacturer,ScreenSize,RefreshRate,Resolution,Features,Price,Rating")] Monitor monitor)
         {
             if (id != monitor.Id)
             {

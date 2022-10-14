@@ -67,3 +67,4 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0210 finally updated the index model successfully 
 0230 updated the view/Monitors/Index.cshtml
 0237 Finally checked the filter and the dropdown field and it works perfectly!!!
+1125 Added the rating property to the Monitor.cs

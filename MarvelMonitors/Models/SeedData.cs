@@ -32,7 +32,8 @@ namespace MarvelMonitors.Models
                         RefreshRate = "165 hz",
                         Resolution = "1440p WQHD",
                         Features = "Mountable",
-                        Price = 469.99M
+                        Price = 469.99M,
+                        Rating = 5
                     }
 
                     );
