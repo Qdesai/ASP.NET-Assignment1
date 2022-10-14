@@ -58,3 +58,5 @@ As i have to make my assignment for monitors i researched and came to the conclu
 	 I had a database in my laptop that was named same so i deleted the database and tried again.
 0048 Updated the database again now it worked. 
 0111 changed the index method in the MonitorsController inorder show the records that match the search. 
+0128 added the textbox in the index page for the search string.
+0132 changed the form post method to "GET".

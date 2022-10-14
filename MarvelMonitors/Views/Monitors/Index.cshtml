@@ -10,7 +10,7 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-controller="Monitors" asp-action="Index">
+<form asp-controller="Monitors" asp-action="Index" method="GET">// calls the monitors controller and the index method
     <p>
         Title: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
