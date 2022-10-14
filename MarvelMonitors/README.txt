@@ -56,4 +56,5 @@ As i have to make my assignment for monitors i researched and came to the conclu
 
 0044 After i cloned the repo i was not able to run the command update-database it gave the same error like before because,
 	 I had a database in my laptop that was named same so i deleted the database and tried again.
-0048 updated the database again now it worked.
+0048 Updated the database again now it worked. 
+0111 changed the index method in the MonitorsController inorder show the records that match the search. 

@@ -20,9 +20,17 @@ namespace MarvelMonitors.Controllers
         }
 
         // GET: Monitors
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string id)
         {
-            return View(await _context.Monitor.ToListAsync());
+            var monitors = from m in _context.Monitor // sql query to get all the results from the database. 
+                           select m;
+
+            if (!String.IsNullOrEmpty(id))
+            {
+                monitors = monitors.Where(s => s.ModelName.Contains(id)); // compares the string with the recordds and gives the records that match.
+            }
+
+            return View(await monitors.ToListAsync());
         }
 
         // GET: Monitors/Details/5
