@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MarvelMonitors.Models.Monitor>
+﻿@model MarvelMonitors.Models.MonitorsScreenSizeModel
 
 @{
     ViewData["Title"] = "Index";
@@ -10,9 +10,13 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-controller="Monitors" asp-action="Index" method="GET">// calls the monitors controller and the index method
+<form asp-controller="Monitors" asp-action="Index" method="GET">@* calls the monitors controller and the index method*@
     <p>
-        Title: <input type="text" name="SearchString" />
+        <select asp-for="MonitorScreenSize" asp-items="Model.ScreenSizes">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" asp-for="SearchString"/>
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -21,34 +25,34 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ModelName)
+                @Html.DisplayNameFor(model => model.Monito[0].ModelName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PanelTechnology)
+                @Html.DisplayNameFor(model => model.Monito[0].PanelTechnology)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Manufacturer)
+                @Html.DisplayNameFor(model => model.Monito[0].Manufacturer)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ScreenSize)
+                @Html.DisplayNameFor(model => model.Monito[0].ScreenSize)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RefreshRate)
+                @Html.DisplayNameFor(model => model.Monito[0].RefreshRate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Resolution)
+                @Html.DisplayNameFor(model => model.Monito[0].Resolution)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Features)
+                @Html.DisplayNameFor(model => model.Monito[0].Features)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Monito[0].Price)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.Monito)
         {
             <tr>
                 <td>

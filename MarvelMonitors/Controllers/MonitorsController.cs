@@ -20,17 +20,34 @@ namespace MarvelMonitors.Controllers
         }
 
         // GET: Monitors
-        public async Task<IActionResult> Index(string searchString)
+
+        public async Task<IActionResult> Index(string MonitorScreenSize, string searchString)
         {
-            var monitors = from m in _context.Monitor // sql query to get all the results from the database. 
+            // Use LINQ to get list of genres.
+            IQueryable<string> ScreenSizeQuery = from m in _context.Monitor
+                                                 orderby m.ScreenSize
+                                                 select m.ScreenSize;
+
+            var monitors = from m in _context.Monitor
                            select m;
 
-            if (!String.IsNullOrEmpty(searchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                monitors = monitors.Where(s => s.ModelName.Contains(searchString)); // compares the string with the recordds and gives the records that match.
+                monitors = monitors.Where(s => s.ModelName.Contains(searchString));
             }
 
-            return View(await monitors.ToListAsync());
+            if (!string.IsNullOrEmpty(MonitorScreenSize))
+            {
+                monitors = monitors.Where(x => x.ScreenSize == MonitorScreenSize);
+            }
+
+            var monitorsSSM = new MonitorsScreenSizeModel
+            {
+                ScreenSizes = new SelectList(await ScreenSizeQuery.Distinct().ToListAsync()),
+                Monito = await monitors.ToListAsync()
+            };
+
+            return View(monitorsSSM);
         }
 
         // GET: Monitors/Details/5
