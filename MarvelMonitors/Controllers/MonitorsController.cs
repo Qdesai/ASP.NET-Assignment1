@@ -20,14 +20,14 @@ namespace MarvelMonitors.Controllers
         }
 
         // GET: Monitors
-        public async Task<IActionResult> Index(string id)
+        public async Task<IActionResult> Index(string searchString)
         {
             var monitors = from m in _context.Monitor // sql query to get all the results from the database. 
                            select m;
 
-            if (!String.IsNullOrEmpty(id))
+            if (!String.IsNullOrEmpty(searchString))
             {
-                monitors = monitors.Where(s => s.ModelName.Contains(id)); // compares the string with the recordds and gives the records that match.
+                monitors = monitors.Where(s => s.ModelName.Contains(searchString)); // compares the string with the recordds and gives the records that match.
             }
 
             return View(await monitors.ToListAsync());
