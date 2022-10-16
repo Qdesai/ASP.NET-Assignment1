@@ -68,3 +68,17 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0230 updated the view/Monitors/Index.cshtml
 0237 Finally checked the filter and the dropdown field and it works perfectly!!!
 1125 Added the rating property to the Monitor.cs
+1235 i had a hard time finding " [Bind("Id,Title,ReleaseDate,Genre,Price")] " in MonitorsController.cs atlast found it and added the " "Rating"
+1245 edited the Views/Monitors/Index.cshtml and added the rating field 
+1250 also updated the database View/Moitors/Create.cshtml and added the Rating field 
+0135 insted of the normall input field i added the input type=number that limits the user input from 0-5 BUT it created a problem the edit.cshtml was 
+	 not showing the ratings so atlast after trying a lot i changed it back to default.
+0148 updated the SeedData and added the rating record in the database 
+0153 fired the command for adding the migration rating with the -Context MarvelMonitors and also updated the database 
+0215 added some of the validation i will add some later 
+
+
+-------------- 15 october 2022 ---------------- 
+0031 Completed the validation  
+ 
+ ADD THE COMMENTS FOR THE RATING 

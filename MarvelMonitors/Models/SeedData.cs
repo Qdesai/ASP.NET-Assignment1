@@ -34,6 +34,19 @@ namespace MarvelMonitors.Models
                         Features = "Mountable",
                         Price = 469.99M,
                         Rating = 5
+                    },
+
+                    new Monitor
+                    {
+                        ModelName = "Dell Ultra",
+                        PanelTechnology = "IPS",
+                        Manufacturer = "Dell",
+                        ScreenSize = "27 In",
+                        RefreshRate = "165 hz",
+                        Resolution = "1440p WQHD",
+                        Features = "Mountable",
+                        Price = 469.99M,
+                        Rating = 5
                     }
 
                     );
