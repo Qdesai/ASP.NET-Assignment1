@@ -95,4 +95,9 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0218 linked all the pages with the navigation bar.
 0225 Arranged the about us page 
 0228 Added button but coudnt redirect it to another page so i tried to do it with the onclick method and it worked
-0230 
+0235 got an image that is free to use.
+0250 trying to insert images but cannot do it.
+0334 still tring to find how to insert images.
+0341 added the image finally ton the home page. 
+0346 added the logo to the header.
+
