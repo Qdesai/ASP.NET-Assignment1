@@ -104,3 +104,4 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0430 added the google fonts and its working perfectly 
 0438 Finalllyy completed Assignment 1!!!!!!
 0440 Posting it to azure.
+0452 tried a lot to post it to azure but its not posting. not giving any error (Same like it happened in class)
