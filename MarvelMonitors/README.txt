@@ -80,5 +80,15 @@ As i have to make my assignment for monitors i researched and came to the conclu
 
 -------------- 15 october 2022 ---------------- 
 0031 Completed the validation  
- 
- ADD THE COMMENTS FOR THE RATING 
+
+
+-------------- 16 october 2022 ---------------- 
+2322 finally added 10 records for the assignment in the database.
+2345 I tried this " <button asp-area="" asp-controller="Monitors" asp-action="Index">Check Out Our Latest Moniters</button> " to redirect the user to different page. BUT IT DIDNT WORK.
+
+-------------- 17 october 2022 ---------------- 
+
+0013 Figured out how ot redirect user with button.
+0136 Completed the about us page.
+0200 f****** i lost all of my work till 15 oct because of git conflict now doing it again 
+0210 completed the seeddata 
