@@ -100,4 +100,7 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0334 still tring to find how to insert images.
 0341 added the image finally ton the home page. 
 0346 added the logo to the header.
-
+0401 COmpleted the styling.
+0430 added the google fonts and its working perfectly 
+0438 Finalllyy completed Assignment 1!!!!!!
+0440 Posting it to azure.
