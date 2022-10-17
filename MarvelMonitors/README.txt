@@ -92,3 +92,7 @@ As i have to make my assignment for monitors i researched and came to the conclu
 0136 Completed the about us page.
 0200 f****** i lost all of my work till 15 oct because of git conflict now doing it again 
 0210 completed the seeddata 
+0218 linked all the pages with the navigation bar.
+0225 Arranged the about us page 
+0228 Added button but coudnt redirect it to another page so i tried to do it with the onclick method and it worked
+0230 
